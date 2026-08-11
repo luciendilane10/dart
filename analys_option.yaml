@@ -1,0 +1,14 @@
+# Configuration de l'analyse statique et du linting Dart
+
+include: package:lints/recommended.yaml
+
+analyzer:
+  language:
+    strict-casts: true
+
+linter:
+  rules:
+    - always_declare_return_types
+    - prefer_single_quotes
+    - avoid_empty_else
+    - cancel_subscriptions
